@@ -1,0 +1,1025 @@
+$my-color: dodgerblue;
+$rotate : rotate(30deg);
+$lg: lightgray;
+$upper: uppercase;
+$myblack: black;
+$abs: absolute;
+$ml: 25px;
+$mb: 30px;
+
+body{
+    overflow-x: hidden;
+    // height: 3px;
+}
+
+
+.side{
+    width: 120px;
+    height: 606px;
+    overflow: auto;
+    position: fixed;
+  
+    
+}
+::-webkit-scrollbar{
+    width: 20px;
+    background-color: rgb(250, 250, 240);
+}
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 100px;
+    background: rgb(204, 225, 245);
+    border: 2px solid #eff1f5;
+   
+}
+
+.square{
+    width: 35px;
+    height: 35px;
+    background: $my-color;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 40px;
+    transform: rotate(30deg);
+
+    
+}
+
+.circle{
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+    background: white;
+    position: $abs;
+    left: 10px;
+    top: 10px;
+  
+}
+.Community{
+    width: 100%;
+    // height: 50px;
+    margin-top: 20px;
+    border-radius: 8px;
+    
+   
+}
+.Community:hover{
+    // width: 100px;
+    // height: 50px;
+    background: $lg;
+    
+    
+    
+}
+    
+#comm{
+    text-transform: $upper;
+    color:$myblack;
+    margin: 10px 0px 0px 15px;
+    font-size: 13px;  
+
+}
+.explore{
+    margin: 10px 0px 0px 7px;
+    border: none;
+    background: transparent;
+    text-align: center;
+    width: 89%;
+    border-radius: 5px;
+}
+.explore:hover,.search:hover,.ama:hover,.light:hover{
+    background: $lg;
+}
+.explore img{
+    width: 40px;
+}
+
+.explore p,.ama p,.search p{
+    text-transform: $upper;
+    color: $myblack ;
+    font-size: 13px;
+}
+.ama p{
+    margin-left: 10px;
+}
+.ama{
+   margin: 5px 0px 30px 20px;
+   width: 87%;
+   border-radius: 5px;
+  
+}
+
+.light{
+    margin-left: 35px;
+   
+}
+.light a{
+    color: black;
+}
+.search p{
+   margin-left: $ml;
+   margin-bottom: $mb;
+}
+.notification{
+    margin-left: 20px;
+    margin-top: 19px;
+}
+.user{
+    margin-left: 17px;
+    margin-top: 12px;
+}
+.side a{
+    text-decoration: none;
+}
+#blog{
+    color: gray;
+    font-size: 13px;
+    padding: 40px 90px;
+    
+}
+.heading,.next{
+    display: flex;
+    margin-left: 0px;
+}
+
+.pic{
+    padding: 20px 60px;
+}
+.logbtn{
+    font-weight: bold;
+    color: gray;
+    font-size: 17px;
+    margin-right: 20px;
+    
+}
+.buttons{
+    padding: 30px;
+    margin-left: 70px;
+}
+.createbtn{
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+.createbtn:hover{
+    background: rgba(152, 218, 245, 0.555);
+    color: blue;
+    
+}
+.dots{
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+    padding: 0px;
+    margin: 60px 0px 0px 90px;
+    z-index: -1;
+
+}
+.dot1{
+    width: 4px;
+    height: 4px;
+    background: dodgerblue;
+    border-radius: 100%;
+}
+.everything{
+    text-align: center;
+    z-index: 0;
+    position: $abs;
+    left: 400px;
+    top: 230px;
+    
+}
+.everything h1{
+    font-size: 33px;
+    font-family: arial black;
+}
+.mybtns{
+    margin-top: 50px;
+   text-align: center;
+}
+.bigdrawing{
+    width: 450px;
+    height: 440px;
+    background: rgb(218, 232, 245);
+    border-radius: 50% 50% 65% 55%;
+    position: absolute;
+    right: 100px;
+    top: 290px;
+    z-index: -300;
+    transform: rotate(30deg);
+}
+.seconddraw{
+    width: 480px;
+    height: 500px;
+    background: rgba(178, 204, 228, 0.295);
+    border-radius: 50% 50% 65% 55%;
+    position: absolute;
+    right: 90px;
+    top: 250px;
+    z-index: -1;
+    transform: rotate(30deg);
+}
+.sd{
+    width: 500px;
+    height: 500px;
+    background: rgba(178, 204, 228, 0.295);
+    border-radius: 50% 50% 65% 55%;
+    position: absolute;
+    left: 120px;
+    // bottom: 300px;
+    z-index: -1;
+    transform: rotate(30deg);
+}
+.bd{
+    width: 500px;
+    height: 480px;
+    background: rgb(218, 232, 245);
+    border-radius: 50% 50% 65% 55%;
+    position: absolute;
+    left: 170px;
+    // bottom:300px;
+    z-index: -300;
+    transform: rotate(30deg);
+}
+.devb{
+    border: 1px solid blue;
+    border-radius: 10px;
+    height: 200px;
+    text-align: center;
+    background: white;
+    
+    
+    
+}
+.al{
+    padding-top: 50px;
+}
+
+
+#second{
+    position: $abs;
+    right: 100px;
+    // right: 10px;
+   top: 430px;
+    z-index: -200;
+}
+.dd img{
+    width: 30px;
+    border-radius: 100px;
+    margin-left: 4px;
+}
+.dd{
+    display: flex;
+    // margin: 10px 0px 0px 20px;
+}
+.tcard{
+    width: 310px;
+    height: 250px;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding: 20px 0px 0px 15px;
+}
+.text{
+    margin-left: 10px;
+}
+.text p{
+    margin-top: -10px
+}
+.tcard p{
+    font-size: 14px;
+    width: 270px;
+    
+}
+#dis{
+    display: flex;
+    padding: 170px 0px 0px 100px;
+    
+}
+#cat{
+    height: 240px;
+}
+#vic{
+    height: 200px;
+}
+#dan{
+    height: 260px;
+}
+#udu{
+    height: 300px;
+}
+.testimony{
+    font-size: 18px;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+
+.testimony:hover{
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+    border: 1px solid lightgray;
+    background: lightgray;
+    text-align: center;
+    border-radius: 9px;
+
+}
+#wh{
+    display: flex;
+    padding: 140px 0px 0px 100px;
+    
+    
+}
+.texts{
+    width: 300px;
+    padding: 20px;
+}
+.texts h1{
+    font-weight: bold;
+}
+.text2{
+    width: 320px;
+    padding:  20px 0px 0px 0px;
+    margin-right: 20px;
+}
+.text2 h4{
+    font-weight: bold;
+    width: 260px;
+}
+.text2 p{
+    width: 200px;
+}
+.text2 img{
+    margin-bottom: 20px;
+}
+#mts{
+    display: flex;
+    padding: 30px 0px 0px 130px ;
+}
+#myh{
+    margin: 60px 0px 0px 120px;
+    font-weight: bolder;
+    font-family: arial black;
+}
+#ins{
+    margin-top: 30px;
+}
+#hash{
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 120px;
+    margin-top: -200px;
+}
+#Autoset{
+    padding: 10px 0px 0px 90px ;
+    
+}
+.automatic{
+    width: 330px;
+    height: 270px;
+  
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    margin-right: 20px;
+   
+
+}
+#git,#owny{
+    background: white;
+}
+.automatic p{
+    width: 250px;
+}
+.automatic h4{
+    margin: 20px 0px 20px 0px;
+}
+#autop{
+    text-align: center;
+
+}
+.mark{
+    background: transparent;
+
+}
+#enable{
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    background: transparent;
+}
+#person{
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    background: transparent;
+    height: 355px;
+    margin-top: 20px;
+}
+.all{
+    display: flex;
+    padding:  0px 0px 0px 20px;
+    
+}
+.sall,.tall{
+    display: flex;
+}
+#ok{
+   text-align: center;
+   padding: 50px;
+  
+   
+}
+#ok button{
+    font-size: 20px;
+    font-weight: bold;
+}
+#ok i{
+    transform: rotate(-50deg);
+}
+.trends{
+    padding: 90px 0px 0px 0px;
+}
+.trends h2{
+    
+    font-weight: bolder;
+    font-family: arial black;
+    margin-left: 160px;
+}
+.mtxs{
+    padding-left: 30px;
+}
+.mtxs p{
+    width: 250px;
+}
+.trending img{
+        width: 100px;
+        border-radius: 100px;
+        
+}
+.ftrends{
+    display: flex;
+    justify-content: space-evenly;
+}
+.trending h6{
+    color: gray;
+}
+.trending{
+    display: flex;
+    padding: 40px 0px 0px 6px;
+}
+#browse{
+    background: transparent;
+    border-radius: 7px;
+    border: 1px solid lightgray;
+    width: 180px;
+    height: 40px;
+    margin-left: 500px;
+}
+#browse:hover{
+    background: rgba(211, 211, 211, 0.575);
+}
+#dont{
+    text-align: center;
+    padding-top: 150px;
+}
+#dont h1{
+    font-weight: bolder;
+}
+#dont button{
+    margin-top: 40px;
+    box-shadow:1px 1px 10px lightblue;
+}
+.hr{
+    width: 90%;
+    border-top: 0.5px solid lightgray;
+    margin: 120px auto;
+}
+#navs i{
+    color: gray;
+    font-size: 20px;
+    margin-left: 15px;
+    width: 30px;
+    height: 30px;
+}
+#navs a{
+    text-decoration: none;
+}
+#ic{
+    text-align: center;
+}
+#ic:hover{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background: rgba(211, 211, 211, 0.596);
+  
+
+}
+.str{
+   margin-bottom: 25px;
+   padding-left: 40px;
+   margin-left: 40px;
+}
+.str:hover{
+    width: 160px;
+    height: 50px;
+    background: lightgray;
+    border-radius: 7px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+   padding-left: 40px;
+    
+}
+.f img{
+    margin:0px 0px 30px -50px;
+}
+.f p{
+    margin: 0px 0px 30px 15px;
+    font-size: 15px;
+    color:gray;
+}
+#sr{
+    width: 130px;
+    border-top: 0.3px solid lightgray;
+    padding-bottom: 25px; 
+    margin-left: 60px;
+}
+
+.s{
+    display: flex;
+}
+#foot{
+    display: flex;
+    justify-content: space-between;
+    padding:  0px 60px 10px 60px;
+}
+.footup{
+    margin-left: 80px;
+   
+    
+}
+.logup{
+    margin-left: 90px;
+    
+}
+.t{
+    
+    text-align: center;
+}
+#ab{
+    margin-bottom: 10px;
+    width: 140px;
+    height: 30px;
+    padding-left: 60px;
+}
+#ab:hover{
+    width: 140px;
+    height: 30px;
+    border-radius: 8px;
+    background: rgba(211, 211, 211, 0.644);
+}
+#mobileview{
+    // visibility: hidden;
+    display: none;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+
+ 
+    
+    #desktopview{
+        visibility: hidden;
+        display: none;
+    }
+    #mobileview{
+        // visibility: visible;
+        display: inherit;
+    }
+    #navmob{
+        display: flex;
+        justify-content: space-between;
+        // flex-direction: row;
+        top: 20px;
+        position: relative;
+        left: -3px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid lightgray;
+
+       
+    }
+    #nvb{
+        margin-left: 6px;
+    }
+    #hmb{
+        margin-left: 10px;
+        margin-right: 50px;
+    }
+    #comb{
+        width: 100px;
+        height: 250px;
+        background: white;
+        text-align: center;
+        position: absolute;
+        top: 85px;
+        left: 10px;
+        border-radius: 8px;
+        display: none;
+        z-index: 200;
+    }
+    #bar:hover #comb{
+        display: inherit;
+    }
+    #bar:hover{
+        width: 50px;
+        height: 50px;
+        background: rgba(211, 211, 211, 0.5);
+        border-radius: 7px;
+        text-align: center;
+    }
+    #free{
+        width: 200px;
+        height: 320px;
+        background: white;
+        text-align: center;
+        position: absolute;
+        top: 78px;
+        right: 20px;
+        border-radius: 8px;
+        display: none;
+        z-index: 200;
+
+    }
+    #free button{
+        background: transparent;
+        border: 1px solid blue;
+        width: 150px;
+        border-radius: 7px;
+    }
+    #forfr:active #free{
+        display: inherit;
+    }
+    #userdrop{
+        width: 330px;
+        position: absolute;
+        right: 14px;
+        height: 85px;
+        background: white;
+        border-radius: 10px;
+        padding: 9px;
+        display: none;
+        top: 60px;
+
+    }
+    #nvb:active #userdrop{
+        display: inherit;
+    }
+    #userdrop span{
+        font-size: 22px;
+        color: gray;
+        
+    }
+    .dots{
+        display: flex;
+        // justify-content: space-between;
+        width: 150px;
+      
+        margin: 80px 0px 0px 20px;
+        z-index: -1;
+    
+    }
+    .dot1{
+        width: 2px;
+        height: 2px;
+        background: dodgerblue;
+        border-radius: 100%;
+    }
+    #dot2,#dot3,#dmb2{
+        margin-top: -20px;
+    }
+    .bigdrawing{
+        width: 150px;
+        height: 150px;
+        background: rgb(218, 232, 245);
+        border-radius: 50% 50% 65% 55%;
+        position: absolute;
+        right: 20px;
+        top: 160px;
+        z-index: -300;
+        transform: rotate(30deg);
+    }
+    .seconddraw{
+        width: 150px;
+        height: 150px;
+        background: rgba(178, 204, 228, 0.295);
+        border-radius: 50% 50% 65% 55%;
+        position: absolute;
+        right: 20px;
+        top: 150px;
+        z-index: -1;
+        transform: rotate(30deg);
+    }
+    #second{
+        position: $abs;
+        right: 10px;
+       top: 220px;
+        z-index: -200;
+    }
+    #mtext{
+        text-align: center;
+        
+        
+    }
+    #mtext h2{
+        font-weight: bolder;
+        font-family: Arial black ;
+        font-size: 30px;
+    }
+    .mybtns{
+        margin-top: 20px;
+       text-align: center;
+    }
+    #dis{
+        display: flex;
+        padding: 70px 0px 0px 15px;
+        overflow-x: auto;
+        
+    }
+    .mfull{
+        outline: none;
+        border: none;
+        background: transparent;
+        margin-left: 100px;
+        margin-top: 16px;
+        font-size: 20px;
+    }
+    #mwh{
+        display: block;
+        padding: 40px 0px 0px 20px;
+        
+        
+    }
+    .mtexts p{
+        font-size: 18px;
+    }
+    .mtexts h1{
+        font-weight: bolder;
+        font-size: 26px;
+        font-family: arial black;
+    }
+    #myh{
+        margin: 60px 0px 0px 10px;
+        font-weight: bold;
+        font-family: arial black;
+        font-size: 25px;
+    }
+    #mts{
+        display: block;
+        padding: 30px 0px 0px 20px ;
+    }
+    .mtext2{
+        
+        padding:  20px 0px 0px 0px;
+        margin-right: 20px;
+    }
+    .mtext2 h4{
+        font-weight: bold;
+        // width: 390px;
+        font-size: 20px;
+    }
+    #mlast{
+        margin-bottom: 80px;
+    }
+    .mtext2 img{
+        margin-bottom: 20px;
+        width: 200px;
+    }
+    .msd{
+        width: 200px;
+        height: 200px;
+        background: rgba(178, 204, 228, 0.295);
+        border-radius: 50% 50% 65% 55%;
+        position: absolute;
+        left: 20px;
+        // bottom: 300px;
+        z-index: -1;
+        transform: rotate(30deg);
+    }
+    .mbd{
+        width: 180px;
+        height: 180px;
+        background: rgb(218, 232, 245);
+        border-radius: 50% 50% 65% 55%;
+        position: absolute;
+        left: 35px;
+        // bottom: 10px;
+        // bottom:300px;
+        z-index: -300;
+        transform: rotate(30deg);
+    }
+    #msup{
+        margin-top: 5px;
+    }
+    .third{
+        margin-top: 90px;
+    }
+    #mAutoset{
+        padding: 10px 0px 0px 0px ;
+        
+    }
+    .mall,.dall{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      
+        
+    }
+    .mautomatic{
+        // width:500px;
+        // height: 80px;
+        // padding: 20px;
+        text-align: center;
+        // margin-right: 20px;
+       
+    
+    }
+    .automatic{
+        width: 330px;
+        height: 270px;
+      
+        border-radius: 15px;
+        padding: 20px;
+        text-align: center;
+        margin-right: 20px;
+       
+    
+    }
+    .mfall{
+        align-content: center;
+    }
+    .mfall h6{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .mtrends{
+        padding-left: 20px;
+    }
+    .mtrends h4{
+        font-weight: bolder;
+        font-size: 24px;
+        font-family: arial black;
+        
+    
+    }
+    .mftrends{
+        display: block;
+        // justify-content: space-evenly;
+    }
+   
+    .mtrending img{
+        width: 100px;
+        border-radius: 100px;
+        
+}
+.mtxs{
+    padding-left: 30px;
+}
+.mtxs p{
+    width: 250px;
+}
+#mbrowse{
+    background: transparent;
+    border-radius: 7px;
+    border: 1px solid lightgray;
+    width: 180px;
+    height: 40px;
+    margin-left: 120px;
+}
+#mdont{
+    text-align: center;
+    padding-top: 30px;
+    // padding-left: 15px;
+}
+#mdont h3{
+    font-weight: bolder;
+}
+#mdont button{
+    margin-top: 30px;
+    box-shadow:1px 1px 10px lightblue;
+}
+.ms{
+    display: block;
+}
+#mfoot{
+    // display: flex;
+    justify-content: space-between;
+    padding:  0px 30px 60px 2px;
+}
+.Mfootup{
+    margin-left: 2px;
+    color: rgb(185, 185, 185);
+    
+}
+.Mlogup{
+    margin-left: 2px;
+    color: rgb(185, 185, 185);
+}
+
+// .t div{
+//     // margin-bottom: 10px;
+//     color: rgb(185, 185, 185);
+// }
+.mdfoot{
+    color: rgb(185,185,185);
+}
+.f img{
+    margin:0px 0px 30px -50px;
+}
+.f p{
+    margin: 0px 0px 30px 15px;
+    font-size: 15px;
+    color:gray;
+}
+.mstr{
+    margin-bottom: 25px;
+    padding-left: 10px;
+    margin-left: 10px;
+    color: rgb(185, 185, 185);
+    font-size: 13px;
+ }
+ .str:hover{
+     width: 160px;
+     height: 50px;
+     background: lightgray;
+     border-radius: 7px;
+     margin-left: 20px;
+     margin-bottom: 25px;
+    padding-left: 40px;
+     
+ }
+ #mab{
+    margin-bottom: 10px;
+    width: 140px;
+    height: 30px;
+    padding-left: 15px;
+}
+#mab:hover{
+    width: 140px;
+    height: 30px;
+    border-radius: 8px;
+    background: rgba(211, 211, 211, 0.644);
+}
+#mdmsr{
+    width: 250px;
+    border-top: 0.3px solid lightgray;
+    padding-bottom: 25px; 
+    margin-left: 15px;
+}
+#roll{
+    animation-name: rolling;
+    animation-duration: 1s;
+}
+@keyframes rolling{
+    0%{transform: rotate(5deg);}
+    5%{transform: rotate(10deg);}
+    10%{transform: rotate(15deg);}
+    15%{transform: rotate(20deg);}
+    20%{transform: rotate(25deg);}
+    25%{transform: rotate(30deg);}
+    30%{transform: rotate(35deg);}
+    35%{transform: rotate(40deg)}
+    38%{transform: rotate(50deg)}
+    45%{transform: rotate(700deg)}
+    50%{transform: rotate(100deg)}
+    60%{transform: rotate(150deg)}
+    70%{transform: rotate(200deg)}
+    80%{transform: rotate(230deg)}
+    85%{transform: rotate(250deg)}
+    90%{transform: rotate(270deg)}
+    93%{transform: rotate(300deg)}
+    95%{transform: rotate(330deg)}
+    100%{transform: rotate(360deg)}
+}
+#mbne{
+    padding-left: 15px;
+}
+
+    
+}
+
+ 
+
+
